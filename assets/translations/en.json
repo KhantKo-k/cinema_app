@@ -1,0 +1,17 @@
+{
+  "loginPage": {
+    "login": "Sign In",
+    "password": "Password",
+    "welcome": "Welcome",
+    "loginError": "Login error"
+  },
+  "homePage": {
+    "welcome": "Welcome",
+    "now_showing": "Now Showing"
+  },
+  "seatPage": {
+    "available": "Available",
+    "selected": "Selected",
+    "reserved": "Reserved"
+  }
+}

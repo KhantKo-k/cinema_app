@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1021312234634-1b8l079bisuen2mslh6jd27ha0i5rglk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1021312234634-1b8l079bisuen2mslh6jd27ha0i5rglk</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1021312234634-ip3f2t9doh1ehstngif2jlfjkq0uu1kc.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDbOewvyZqaSYZY3YqeI7B56mUMWdd0s7o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1021312234634</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.cinemaApp</string>
+	<key>PROJECT_ID</key>
+	<string>movie-ticket-app-5123f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>movie-ticket-app-5123f.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1021312234634:ios:c1697e6a02710a46fc2973</string>
+</dict>
+</plist>

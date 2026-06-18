@@ -1,0 +1,21 @@
+{
+  "landingPage": {
+    "appName": "Starter Kit",
+    "welcome": "An app starter kit for your next project",
+    "login": "Log In",
+    "register": "Register"
+  },
+  "loginPage": {
+    "login": "Log In",
+    "welcome": "Welcome back!",
+    "username": "Username",
+    "password": "Password",
+    "usernameRequired": "Please enter your username",
+    "passwordRequired": "Please enter your password"
+  },
+  "homePage": {
+    "welcome": "Welcome{0}",
+    "welcomeNamed": "Welcome{name}",
+    "now_showing": "Now Showing"
+  }
+}

@@ -1,0 +1,17 @@
+rules_version = '2';
+
+// Deploy via Firebase Console or `firebase deploy --only firestore:rules`.
+// Add rules for orders, movies, seats, etc. before deploying to production.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow create: if request.auth != null
+        && request.auth.uid == userId
+        && request.resource.data.role == 'user';
+      allow update: if request.auth != null
+        && request.auth.uid == userId
+        && request.resource.data.role == resource.data.role;
+    }
+  }
+}

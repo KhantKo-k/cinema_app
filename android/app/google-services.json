@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1021312234634",
+    "project_id": "movie-ticket-app-5123f",
+    "storage_bucket": "movie-ticket-app-5123f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021312234634:android:9941c68c9137016dfc2973",
+        "android_client_info": {
+          "package_name": "com.example.cinema_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021312234634-ip3f2t9doh1ehstngif2jlfjkq0uu1kc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cinema_app",
+            "certificate_hash": "e365da924897bfb1da55bbff59bff2445ad7ba0b"
+          }
+        },
+        {
+          "client_id": "1021312234634-gkhol2cl1704aqvd2sad2plkkvl02v71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxw974riwHeeIHjUMO6WbhAotZxM4ToRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021312234634-gkhol2cl1704aqvd2sad2plkkvl02v71.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1021312234634-1b8l079bisuen2mslh6jd27ha0i5rglk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cinemaApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

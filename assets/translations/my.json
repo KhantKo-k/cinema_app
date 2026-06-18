@@ -1,0 +1,17 @@
+{
+  "loginPage": {
+    "login": "အကောင့်ဝင်မည်",
+    "password": "စကားဝှက်",
+    "welcome": "ကြိုဆိုပါတယ်",
+    "loginError": "အကောင့်ဝင်ရန် အမှား"
+  },
+  "homePage": {
+    "welcome": "ကြိုဆိုပါတယ်",
+    "now_showing": "ပြသနေသည်"
+  },
+  "seatPage": {
+    "available": "ရရှိနိုင်",
+    "selected": "ရွေးချယ်ပြီး",
+    "reserved": "မရနိုင်တော့ပါ"
+  }
+}
