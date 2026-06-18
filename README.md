@@ -17,11 +17,15 @@ A Flutter cinema ticket booking app with Firebase Auth, Firestore, and localizat
    cd cinema_app
    ```
 
-2. Copy environment config:
+2. Copy environment and Firebase config:
 
    ```bash
    cp .env.example .env
+   cp android/app/google-services.json.example android/app/google-services.json
+   cp ios/GoogleService-Info.plist.example ios/GoogleService-Info.plist
    ```
+
+   Replace the placeholder values with files downloaded from [Firebase Console](https://console.firebase.google.com/) → Project Settings → Your apps.
 
 3. Install dependencies:
 
@@ -37,12 +41,11 @@ A Flutter cinema ticket booking app with Firebase Auth, Firestore, and localizat
 
 ## Firebase
 
-This app uses Firebase Auth, Firestore, Crashlytics, and Analytics. Platform config files are included:
+This app uses Firebase Auth, Firestore, Crashlytics, and Analytics.
 
-- `android/app/google-services.json`
-- `ios/GoogleService-Info.plist`
+**Do not commit** `google-services.json` or `GoogleService-Info.plist` — they are gitignored. Use the `.example` files as templates and download real configs from Firebase Console.
 
-Restrict API keys in [Google Cloud Console](https://console.cloud.google.com/) to your app bundle IDs and signing certificate fingerprints before publishing.
+Restrict API keys in [Google Cloud Console](https://console.cloud.google.com/) to your app bundle IDs and signing certificate fingerprints.
 
 Deploy Firestore rules when ready:
 
